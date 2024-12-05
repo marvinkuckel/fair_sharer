@@ -1,6 +1,6 @@
 import pytest
 
-from src.fair_sharer import fair_sharer
+from fair_sharer import fair_sharer
 
 @pytest.mark.parametrize("values, num_iterations, expected_distribution",
                           [([0, 1000, 800, 0], 1, [100, 800, 900, 0]),
